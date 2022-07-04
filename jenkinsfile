@@ -1,5 +1,8 @@
 pipeline {
   agent any
+  options {
+    ansicolor('xterm')
+  }
   stages {
     stage ('Create jobs') {
       steps {
