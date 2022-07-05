@@ -3,7 +3,7 @@
     src: pipeline.xml
     dest: /tmp/pipeline.xml
   loop:
-    - {repoName: "cart", componentName: "cart"}
+    - { repoName: "cart", componentName: "cart" }
 
 - name: Create a jenkins job by using the token
   community.general.jenkins_job:
