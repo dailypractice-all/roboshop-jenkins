@@ -1,7 +1,7 @@
 folders:
   - {name: "CI-Pipeline", description: "CI Pipeline Jobs for all Roboshop Components"}
 
-pipelinejobs:
+multibranchjobs:
   - { jobName: "cart", folderName: "CI-Pipeline/", repoName: "cart", componentName: "cart" }
   - { jobName: "catalogue", folderName: "CI-Pipeline/", repoName: "catalogue", componentName: "catalogue" }
   - { jobName: "user", folderName: "CI-Pipeline/", repoName: "user", componentName: "user" }
