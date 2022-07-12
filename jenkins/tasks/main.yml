@@ -14,7 +14,7 @@
     url: http://172.31.4.194:8080
     user: "admin"
     token: "11edc4b20bcb8999dbaaecd36780af73cf"
-  loop: "{{pipelinejobs}}"
+  loop: "{{pipelineJobs}}"
 
 - name: Create multi branch pipeline jobs
   community.general.jenkins_job:
