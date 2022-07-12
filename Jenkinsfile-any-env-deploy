@@ -16,9 +16,6 @@ pipeline {
 
     stage('Clone Repo') {
       steps {
-        addShortText background: 'yellow', borderColor: 'yellow', color: 'red', text: "${COMPONENT}"
-        addShortText background: 'yellow', borderColor: 'yellow', color: 'red', text: "${ENV}"
-        addShortText background: 'yellow', borderColor: 'yellow', color: 'red', text: "${APP_VERSION}"
         git branch: 'main', url: "https://github.com/dailypractice-all/roboshop-ansible.git"
       }
     }
