@@ -9,3 +9,6 @@ multibranchjobs:
   - { jobName: "payment", folderName: "CI-Pipeline/", repoName: "payment", componentName: "payment" }
   - { jobName: "shipping", folderName: "CI-Pipeline/", repoName: "shipping", componentName: "shipping" }
   - { jobName: "dispatch", folderName: "CI-Pipeline/", repoName: "dispatch", componentName: "dispatch" }
+
+pipelineJobs:
+  - { jobName: "deploy-to-any-env", folderName: "", repoName: "roboshop-jenkins", fileName: "Jenkinsfile-any-env-deploy" }
