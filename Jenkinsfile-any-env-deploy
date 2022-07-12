@@ -14,7 +14,7 @@ pipeline {
 
   stages {
 
-    stage('Deploy') {
+    stage('Clone Repo') {
       steps {
         git branch: 'main', url: "https://github.com/dailypractice-all/roboshop-ansible.git"
       }
