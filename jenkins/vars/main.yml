@@ -11,4 +11,4 @@ multibranchjobs:
   - { jobName: "dispatch", folderName: "CI-Pipeline/", repoName: "dispatch", componentName: "dispatch" }
 
 pipelineJobs:
-  - { jobName: "deploy-to-any-env", folderName: "", repoName: "roboshop-jenkins", fileName: "Jenkinsfile-any-env-deploy" }
+  - { jobName: "deploy-to-any-env", folderName: "", repoName: "roboshop-jenkins", fileName: "Jenkinsfile-any-env-deploy"}
